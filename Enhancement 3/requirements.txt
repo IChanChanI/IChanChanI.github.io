@@ -1,0 +1,6 @@
+dash
+dash-leaflet
+pandas
+plotly
+jupyter-dash
+flask
