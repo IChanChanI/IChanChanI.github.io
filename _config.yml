@@ -1,5 +1,5 @@
 remote_theme: pages-themes/architect@v0.2.0
 title: Chandler McCarty's ePortfolio
 description: SNHU CS499 - Computer Science Capstone
-show_downloads: true
+show_downloads: true 
 theme: jeykll-theme-architect
