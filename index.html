@@ -21,22 +21,49 @@ title: SNHU CS-499 Capstone Portfolio
 <section id="Skills">
   <h2>Skills</h2>
   
-  <h4>Hard Skills</h4>
-  <ul>
-    <li>Proficient in Java, Python, and C++</li>
-    <li>Experience with SQL and MongoDB databases</li>
-    <li>Knowledge of Agile methodologies and DevOps principles</li>
-  </ul>
+  <div class="skills-container">
+    <div class="hard-skills">
+      <h4>Hard Skills</h4>
+      <ul>
+        <li>Proficient in Java, Python, and C++</li>
+        <li>Experience with SQL and MongoDB databases</li>
+        <li>Knowledge of Agile methodologies and DevOps principles</li>
+      </ul>
+    </div>
 
-  <h4>Soft Skills</h4>
-  <ul>
-    <li>Effective problem-solving and analytical thinking</li>
-    <li>Excellent teamwork and collaboration skills</li>
-    <li>Strong communication and technical writing abilities</li>
-    <li>Adaptability and willingness to learn new technologies</li>
-    <li>Attention to detail and time management</li>
-  </ul>
+    <div class="soft-skills">
+      <h4>Soft Skills</h4>
+      <ul>
+        <li>Effective problem-solving and analytical thinking</li>
+        <li>Excellent teamwork and collaboration skills</li>
+        <li>Strong communication and technical writing abilities</li>
+        <li>Adaptability and willingness to learn new technologies</li>
+        <li>Attention to detail and time management</li>
+      </ul>
+    </div>
+  </div>
 </section>
+
+<style>
+  .skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .hard-skills, .soft-skills {
+    width: 48%; 
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  @media (max-width: 768px) {
+    .skills-container {
+      flex-direction: column;
+    }
+  }
+</style>
+
 
 <section id="Artifacts">
   <h2>Artifacts</h2>
